@@ -2,14 +2,14 @@
 This is a UI-less and much-simplified version of reddit, where Rails beginners can learn the basics of models and associations.
 
 ## Setup
-Clone this repository in your folder of choice and cd into it: 
-`git clone https://github.com/NedelescuVlad/readit`
+Clone this repository in your folder of choice and cd into it:<br/>
+`git clone https://github.com/NedelescuVlad/readit`<br/>
 `cd readit`
 
-Install the required gems:
+Install the required gems:<br/>
 `bundle install` or simply `bundle`
 
-Create the database schema and populate it with dummy data:
+Create the database schema and populate it with dummy data:<br/>
 `rails db:setup`
 
 At this point, you are ready to go.
@@ -22,7 +22,7 @@ You can use readit to test the concepts that you read about in the rails guides.
 
 Once ready, run the rails console with `rails c`. 
 
-Query the database to your own liking.
+Query the database to your own liking.<br/>
 Create your own objects and save them to the database.
 
 #### Data Models 
