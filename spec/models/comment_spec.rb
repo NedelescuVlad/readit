@@ -11,4 +11,11 @@ RSpec.describe Comment, type: :model do
 			expect(comment.post.valid?).to eq true
 		end
 	end
+
+	context "with blank body" do
+		it "is invalid" do
+			comment.body = " "
+			expect(comment.valid?).to eq false
+		end
+	end
 end
