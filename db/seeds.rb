@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+user = User.create(name: "Vlad Nedelescu", email: "nedelescu.vlad@example.org", password: "itsasecret", password_confirmation: "itsasecret")
+user.posts.create(title:"This is a sample title. It cannot be longer than 255 characters", body: "This is a sample body. It can be as large as it likes, but it has to be at least 50 characters long.")
