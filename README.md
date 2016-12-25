@@ -17,7 +17,7 @@ At this point, you are ready to go.
 ## How to use
 You can use readit to test the concepts that you read about in the rails guides. 
 
-[A basic Rails models guide](http://guides.rubyonrails.org/active_model_basics.html)
+[A basic Rails models guide](http://guides.rubyonrails.org/active_model_basics.html)<br/>
 [A basic Rails associations guide](http://guides.rubyonrails.org/association_basics.html)
 
 Once ready, run the rails console with `rails c`. 
