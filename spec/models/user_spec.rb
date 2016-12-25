@@ -24,6 +24,14 @@ RSpec.describe User, type: :model do
 		end
 	end
 
+	context "with non-unique email" do
+		it "is invalid" do
+			user.save
+			user_dup = user.dup
+			expect(user_dup.valid?).to eq false
+		end
+	end
+
 	context "with blank password" do
 		it "is invalid" do
 			user.password = " "
