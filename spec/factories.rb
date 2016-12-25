@@ -5,4 +5,10 @@ FactoryGirl.define do
 		password "itsasecret"
 		password_confirmation "itsasecret"
 	end
+
+	factory :post do
+		user
+		title "This is a valid title"
+		body "This is a valid body. It can contain a lot of text."
+	end
 end
